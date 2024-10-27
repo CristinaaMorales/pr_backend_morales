@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class authServiceIMP implements AuthService {
-    private static final String FILE_PATH = "src/main/resources/integrantes.txt";
+    private static final String FILE_PATH = "/home/site/wwwroot/integrantes.txt";
 
     @Override
     public boolean autenticar(String codigo, String password) {
